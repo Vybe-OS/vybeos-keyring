@@ -3,11 +3,11 @@
 pkgname = vybeos-keyring
 pkgbase = vybeos-keyring
 xdata = pkgtype=pkg
-pkgver = 20261028-1
+pkgver = 1.0-1
 pkgdesc = VybeOS PGP keyring
 url = https://vybeos.dev
-builddate = 1793195529
+builddate = 1793202811
 packager = Unknown Packager
-size = 2511
+size = 2460
 arch = any
 license = GPL-3.0-or-later
