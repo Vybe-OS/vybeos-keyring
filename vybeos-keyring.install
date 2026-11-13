@@ -1,10 +1,7 @@
 post_install() {
     if [ -x /usr/bin/pacman-key ]; then
-	echo "Adding VybeOS key to pacman keyring ..."
-        pacman-key --add /usr/share/pacman/keyrings/vybeos.gpg
-
-	echo "Signing trust status locally (lsign) ..."
-        pacman-key --lsign-key A72324DDEA1A8D6E
+	echo "Populating VybeOS key to pacman keyring ..."
+        pacman-key --populate vybeos
     fi
 }
 
